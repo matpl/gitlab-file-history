@@ -1,0 +1,10 @@
+{
+    "name": "GitLab time travel",
+    "version": "1.0",
+    "description": "Wawa",
+    "manifest_version": 3,
+    "content_scripts": [{
+        "js": ["dist/app.bundle.js"],
+        "matches": ["https://*/*"]
+    }]
+  }

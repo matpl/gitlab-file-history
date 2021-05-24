@@ -1,0 +1,24 @@
+<html>
+    <head>
+    </head>
+    <body data-project-id="11964563">
+        <table>
+            <tr>
+                <td>File: </td>
+                <td><input id="fileInput" type="text" /></td>
+            </tr>
+        </table>
+        <input type="button" value="auto fill" onclick="autoFill()" />
+        <br />
+        <span class="dropdown-toggle-text" style="display:none;">feat/monitor-tr</span>
+        <div class="js-project-commits-show">
+            <div id="project_11964563"></div>
+        </div>
+        <script src="./dist/app.bundle.js" type="module"></script>
+        <script>
+            function autoFill() {
+                document.querySelector("#fileInput").value = "src/wawa-table.ts";
+            }
+        </script>
+    </body>
+</html>
